@@ -1,0 +1,11 @@
+.footer-section {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 1rem 0;
+
+    > .social-menu {
+        display: flex;
+        gap: 1em;
+    }
+}

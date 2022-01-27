@@ -1,0 +1,38 @@
+.background-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    padding: 0 2rem;
+    background: linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%), hsl(236, 21%, 26%));
+    overflow: hidden;
+
+    // stars background
+    &::before {
+        content: '';
+        position: absolute;
+        background: url('../../images/bg-stars.svg');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        animation: rotate-stars 100000ms linear infinite;
+    }
+
+    > .hill-section {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@keyframes rotate-stars {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}

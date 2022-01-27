@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/// @name main.scss
+/// @author Joshua Mercado
+///
+///  table of contents:
+///   1. base
+///   2. layout
+///   3. scope
+
+/// 1. base - contains global styles.
+@forward "base/global";
+
+/// 2. layout - contains styles for site's different structural layout.
+@forward "layouts/background-section";
+@forward "layouts/clock-section";
+@forward "layouts/footer-section";
+
+/// 3. scope - used to overwrite or add additional styles to a third-party library/plugins.
+@forward "scope/clock";
+
+
+
