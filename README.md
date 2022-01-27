@@ -11,11 +11,9 @@ Converted website from design mockup.
 
 ## Goal
 ---
-1. To practice implementing mobile-first approach and css layout development like grid, flex-box and media queries.
+1. Convert website based on given web design specifications.
 
-2. Convert website based on given web design specifications.
-
-3. To practice imnplementing Jquery plugins.
+2. To practice imnplementing Jquery plugins.
 
 ## Description
 ---
